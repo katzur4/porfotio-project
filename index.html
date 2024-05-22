@@ -4,18 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zura Weebsite</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="https://via.placeholder.com/100/100" alt="logo">
-    <h1>Zura</h1>
-    <ul>
-        <li>Projects</li>
-        <li>About Me</li>
-        <li>Contact</li>
-    </ul>
-    <img src="https://via.placeholder.com/500/400" alt="my-face">
-    <h1>Hello me zura</h1>
-    <p>me dev</p>
+    <main>
+        <header>
+            <span style="display: flex;justify-content: center; align-items: center;gap: 1em;">
+                <img src="https://via.placeholder.com/50/50" alt="logo">
+                <h1><a href="#homepage">Zura</a></h1>
+            </span>
+            <nav>
+                <ul>
+                    <li class="bold"><a href="#projects">PROJECTS</a></li>
+                    <li class="bold"><a href="#about-me">ABOUT ME</a></li>
+                    <li class="bold"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="homepage" id="homepage">
+            <div class="image-myface">
+                <img src="https://via.placeholder.com/500/400" alt="my-face">
+            </div>
+            <span>
+                <h1>Hello me zura</h1>
+                <p>me dev</p>
+            </span>
+
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-item"><img src="https://via.placeholder.com/300/300" alt="Project Title"> Calculator
+            </div>
+            <div class="project-item"><img src="https://via.placeholder.com/300/300" alt="Project Title"> Chess
+            </div>
+            <div class="project-item"><img src="https://via.placeholder.com/300/300" alt="Project Title"> To Do list
+            </div>
+        </section>
+        <section class="about-me" id="about-me">
+            <h2 class="section-title">About me</h2>
+            <div class="work-title">
+                Information Systems Analyst
+            </div>
+            <div class="work-description">
+                <ul>
+                    <li>Sample 1</li>
+                    <li>Sample 1</li>
+                    <li>Sample 1</li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <img src="https://via.placeholder.com/500/400" alt="my-face">
+            <div class="contact-info">
+                <h3>Email Address</h3>
+                <h3>Contact Number</h3>
+                <div class="socials">
+                    <h3>Contact Number</h3> 
+                    <span>Facebook</span> 
+                    <span>Github</span>
+                    <span>LinkedIn</span>
+                </div> 
+            </div>
+        </section>
+
+    </main>
+  
+
     
 </body>
 </html>
