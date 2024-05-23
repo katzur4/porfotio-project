@@ -12,10 +12,26 @@ body{
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-color: #03030b;
+    color: #dfdfe2;
 }
 main{
     display: block;
 }
+.logo{
+    display: flex;
+    padding: .1em;
+    letter-spacing: .2em;
+    border: #dfdfe2 solid;
+}
+.logo-left{
+    background-color: #dfdfe2;
+    color: #0a0a23;
+}
+.logo-right{
+    background-color: #0a0a19;
+}
+
 header{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -59,36 +75,124 @@ nav > ul > li:hover{
 }
 .homepage{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 3em;
     padding: 2em;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
-    max-width: 700px;
+}
+.heropage-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 .projects{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 25px auto;
+    padding-top: 75px;
+    gap: 3em;
+
 }
 .about-me{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 25px auto auto 25px;
+    padding-top: 75px;
+    gap: 3em;
 }
 .contact{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 25px auto;
+    padding-top: 75px;
+    gap: 3em;
 }
 
 a{
     text-decoration: none;
+    color: #dfdfe2;
 }
 a:visited{
     color: inherit;
 }
 .section-title{
     width: 100%;
+    height: 50px;
+}
+.heropage{
+    display: flex;
+    gap: 4em;
+}
+.heropage-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.heropage-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+.heropage-quote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+.image-myface{
+    border: #dfdfe2 solid;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.projects-items{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    text-align: center;
+}
+.work-title{
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+.work-description{
+    width: 60%;
+    height: 50vh;
+    align-items: baseline;
+    padding: 1rem;    
+}
+.work-description > ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+}
+.work-description > ul > li {
+    margin: 0 0.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+.socials{
+    display: flex;
+    font-size: large;
+    gap: 3em;
+}
+.socials a:hover{
+    background-color: #dfdfe2;
+    color: #0a0a23;
 }
