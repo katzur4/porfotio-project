@@ -57,3 +57,37 @@ body::-webkit-scrollbar{
     height: 300px;
     width: 300px;
 }
+.logo{
+    padding: 5px;
+    border: #fff solid 3px;
+    font-weight: 700;
+
+    &>.logo-left{
+        background-color: #021030;
+        color: #fff;
+        padding: 2px;
+    }
+    
+    &>.logo-right{
+        background-color: #fff;
+        color: #021030;
+        padding: 2px;
+    }
+}
+.logorev{
+    padding: 5px;
+    border: #021030 solid 3px;
+    font-weight: 700;
+
+    &>.logo-left{
+        background-color: #021030;
+        color: #fff;
+        padding: 2px;
+    }
+    
+    &>.logo-right{
+        background-color: #fff;
+        color: #021030;
+        padding: 2px;
+    }
+}
