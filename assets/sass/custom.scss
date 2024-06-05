@@ -6,7 +6,7 @@
 // 2. Include any default variable overrides here
 $border-radius:0;
 $primary:#021030;
-$secondary:#82A7A6;
+$secondary:#B796AC;
 $tertiary:#9ED0E6;
 
 
@@ -40,3 +40,9 @@ $tertiary:#9ED0E6;
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+.img-container{
+    overflow: hidden;
+    // border-radius:50%;
+    height: 450px;
+    width: 450px;
+}
