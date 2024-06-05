@@ -8120,6 +8120,12 @@ progress {
     display: none !important;
   }
 }
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  -scrollbar-width: none;
+}
+
 .img-container {
   overflow: hidden;
   height: 450px;
