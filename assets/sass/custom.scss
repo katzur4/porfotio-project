@@ -6,8 +6,7 @@
 // 2. Include any default variable overrides here
 $border-radius:0;
 $primary:#021030;
-$secondary:#B796AC;
-$tertiary:#9ED0E6;
+$secondary:#9ED0E6;
 
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
@@ -51,4 +50,10 @@ body::-webkit-scrollbar{
     // border-radius:50%;
     height: 450px;
     width: 450px;
+}
+.img-container2{
+    overflow: hidden;
+    // border-radius:50%;
+    height: 300px;
+    width: 300px;
 }
